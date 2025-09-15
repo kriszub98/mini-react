@@ -1,0 +1,60 @@
+@layer colors {
+  :root {
+    --c-yellow: hsl(40, 97%, 58%);
+    --c-dark-navy: hsl(216, 17%, 35%);
+    --c-bg: hsl(217, 19%, 21%);
+  }
+}
+
+/* 🎨 Design tokens - zmienne globalne */
+:root {
+  /* 🎨 Kolory brandu */
+  --color-primary: hsl(220, 90%, 56%);
+  --color-primary-hover: hsl(220, 90%, 46%);
+  --color-secondary: hsl(40, 97%, 58%);
+  --color-accent: hsl(340, 82%, 52%);
+
+  /* ⚪ Neutralne kolory */
+  --color-bg: hsl(0, 0%, 100%);
+  --color-bg-alt: hsl(0, 0%, 98%);
+  --color-text: hsl(217, 19%, 21%);
+  --color-text-muted: hsl(217, 12%, 62%);
+  --color-border: hsl(0, 0%, 85%);
+
+  /* 🔤 Typografia */
+  --font-family-base: "Inter", sans-serif;
+  --font-family-heading: "Poppins", sans-serif;
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.25rem; /* 20px */
+  --font-size-xl: 2rem; /* 32px */
+
+  /* 📐 Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* 🕶️ Cienie i radiusy */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+
+  /* ⏱️ Animacje */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 300ms ease-in-out;
+}
+
+/* 🌙 Tryb ciemny */
+:root[data-theme="dark"] {
+  --color-bg: hsl(217, 19%, 21%);
+  --color-bg-alt: hsl(217, 19%, 15%);
+  --color-text: hsl(0, 0%, 100%);
+  --color-text-muted: hsl(0, 0%, 75%);
+  --color-border: hsl(217, 19%, 35%);
+}
