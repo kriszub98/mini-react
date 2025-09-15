@@ -1,0 +1,18 @@
+.Clock {
+    background: #dcdcdc;
+    margin: 0 .5rem;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Clock__timer {
+    padding-bottom: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.Clock__label {
+    font-size: 1.25rem;
+}
+

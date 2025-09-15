@@ -1,0 +1,10 @@
+.Card__Item {
+    background-color: #0f0f0c;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+    align-items: center;
+    margin-bottom: .5rem;
+}

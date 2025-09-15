@@ -1,0 +1,12 @@
+.Button {
+    border-radius: 20px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    padding: .25rem .75rem;
+    transition: all 250ms;
+    
+    &:hover {
+        scale: 1.05
+    }
+}

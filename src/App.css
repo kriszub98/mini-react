@@ -1,0 +1,78 @@
+@layer colors {
+  :root {
+    --c-yellow: hsl(40, 97%, 58%);
+    --c-dark-navy: hsl(216, 17%, 35%);
+    --c-dim-grey: hsl(217, 12%, 62%);
+    --c-light-grey: hsl(263, 49%, 91%);
+    --c-snow: hsl(214, 37%, 96%);
+    --c-light-grey: hsl(39, 100%, 94%);
+    --c-bg: hsl(217, 19%, 21%);
+  }
+}
+
+@layer global {
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: var(--c-bg)
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  p {
+    line-height: 1.3;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  header ul {
+    margin: 0;
+    padding: 0;
+    background: var(--c-dark-navy);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+
+    li {
+      list-style-type: none;
+    }
+  }
+  
+  .nav__logo {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    cursor: pointer;
+    transition: color;
+    transition-duration: 200ms;
+
+    &:hover {
+      color: #ddd;
+    }
+  }
+
+  .nav__login {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+
+}
+
