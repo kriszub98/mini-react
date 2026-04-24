@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import ImageUploader from "./ImageUploader";
+// import { FileUpload } from "../../components/FileInput/FileInput";
+import { FileUpload } from "../../components/FileInput/FileInputConcurency";
 
 const UploadPage: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
@@ -25,6 +27,8 @@ const UploadPage: React.FC = () => {
       <button onClick={handleUpload} disabled={!selectedFile}>
         Wyślij
       </button>
+
+      <FileUpload />
     </div>
   );
 };

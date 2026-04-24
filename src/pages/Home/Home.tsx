@@ -2,7 +2,8 @@ import React from "react";
 import "./Home.css";
 import Card from "../../components/Card/Card";
 import Clock from "../../components/Clock/Clock";
-import { useFetch } from "./Home.hooks";
+// import { useFetch } from "./Home.hooks";
+import { useFetch } from "../../../hooks/useFetch";
 
 interface Product {
   id: number;
